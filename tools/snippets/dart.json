@@ -1,0 +1,41 @@
+{
+	// Place your snippets for dart here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Custom StateFull Widget": {
+		"prefix": "stateFullWC",
+		"body": [
+			"class ${name} extends StateFullCustom {",
+			"\t${name}({Key key}) : super(key: key);",
+			"\t@override",
+			"\t_${name}State createState() => _${name}State();",
+			"}",
+			"class _${name}State extends State<${name}> {",
+			"\t@override",
+			"\tWidget build(BuildContext context) {",
+			"\t\treturn Container(",
+			"\t\t\tchild: $child,",
+			"\t\t);",
+			"\t}",
+			"}",
+		],
+		"description": "Create a custom state full widget"
+	},
+	"Custom StateLess Widget": {
+		"prefix": "stateLessWC",
+		"body": [
+			"class ${name} extends StateLessCustom {",
+			"\t${name}({Key key}) : super(key: key);",
+			"\t@override",
+			"\tWidget build(BuildContext context) {",
+			"\t\treturn Container(",
+			"\t\t\tchild: $child,",
+			"\t\t);",
+			"\t}",
+			"}",
+		],
+		"description": "Create a custom state full widget"
+	},
+}

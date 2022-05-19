@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">main.futgolazo</string>
+    
+    <string name="facebook_app_id">341918090481459</string> 
+    <string name="fb_login_protocol_scheme">fb341918090481459</string>
+
+    <string name="juega_pronostica_y_gana">Juega, Pronostica y Gana</string>
+    <string name="todo">TODO</string>
+</resources>

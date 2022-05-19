@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "584015983225",
+    "firebase_url": "https://futgolazo-app.firebaseio.com",
+    "project_id": "futgolazo-app",
+    "storage_bucket": "futgolazo-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584015983225:android:53a5e1d1a0a5e0bc4f1aa8",
+        "android_client_info": {
+          "package_name": "com.pe.futgolazomain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584015983225-jot7lrv8qif3on4fgrj4gdgvcfli6gqs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pe.futgolazomain",
+            "certificate_hash": "ec4292855be4794fca331e8c5868b0542d141b62"
+          }
+        },
+        {
+          "client_id": "584015983225-dq5mbsngsmjqsv9g2srklt14bvqm3vit.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pe.futgolazomain",
+            "certificate_hash": "18e16164171e2f52402cb2773212cb17cec77ce2"
+          }
+        },
+        {
+          "client_id": "584015983225-t8rgibmkpv83t08upeoef2rgv9e07j03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANuyZFCVntsYWIafFw-f9ItJa-qS7Ehqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584015983225-t8rgibmkpv83t08upeoef2rgv9e07j03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
